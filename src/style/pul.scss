@@ -1,0 +1,18 @@
+/* theme */
+$theme-color: #1890FF;
+$theme-gray-color: #D9D9D9;
+
+.noClick{
+  cursor:not-allowed !important;
+  color: #BFBFBF;
+}
+.noClick::before{
+  background-color: #F5F5F5 !important;
+  border: 1px solid #D9D9D9 !important;
+}
+
+.noClick:indeterminate::after,.noClick:checked::after{
+  background-color: #F5F5F5 !important;
+  border: 1px solid #D9D9D9 !important;
+  color: #B8B8B8 !important;
+}
